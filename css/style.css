@@ -1,6 +1,19 @@
 @import "../css/font-face.css";
 
 
+@media (max-width: 768px){
+  .hr1-form {
+    margin-top: 15px;
+  }
+  #section-reason h1.title {
+    padding-top: 35px;
+}
+section.section-program-by-age {
+    padding-bottom: 20px;
+}
+}
+
+
 a:hover{
   text-decoration: unset;
 }
@@ -937,36 +950,36 @@ section#section-qa {
   }
   section.section-program-by-age .box .box-image img {
     min-width: 100%;
-    max-height: 300px;
+    max-height: 345px;
   }
-  @media (min-width: 425px) {
+/*  @media (min-width: 425px) {
     section.section-program-by-age .box .box-image img {
       max-width: 100%;
       max-height: inherit;
     }
-  }
-  section.section-program-by-age .box .box-content {
-    padding: 5px 15px;
-  }
-  @media (min-width: 992px) {
+    }*/
     section.section-program-by-age .box .box-content {
-      padding: 30px 25px;
+      padding: 5px 15px;
     }
-  }
-  section.section-program-by-age .box .box-content .item-logo img {
-    max-height: 90px;
-    height: 34px;
-  }
-  @media (min-width: 425px) {
+    @media (min-width: 992px) {
+      section.section-program-by-age .box .box-content {
+        padding: 30px 25px;
+      }
+    }
     section.section-program-by-age .box .box-content .item-logo img {
-      height: 70px;
+      max-height: 90px;
+      height: 34px;
     }
-  }
-  @media (min-width: 1500px) {
-    section.section-program-by-age .box .box-content .item-logo img {
-      height: 90px;
+    @media (min-width: 425px) {
+      section.section-program-by-age .box .box-content .item-logo img {
+        height: 70px;
+      }
     }
-  }
+    @media (min-width: 1500px) {
+      section.section-program-by-age .box .box-content .item-logo img {
+        height: 90px;
+      }
+    }
 /*section.section-program-by-age .box .box-content .read-more-mob {
   position: absolute;
   bottom: 0px;
@@ -1091,7 +1104,7 @@ section#section-qa {
     background-size: contain;
     width: 107px;
     height: 100px;
-    top: -25px;
+    top: -40px;
     left: 0;
     z-index: 1;
   }
