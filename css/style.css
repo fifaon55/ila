@@ -5,7 +5,7 @@
   .hr1-form {
     margin-top: 15px;
   }
-  #section-reason h1.title {
+  #section-reason h2.title {
     padding-top: 35px;
 }
 section.section-program-by-age {
@@ -351,7 +351,7 @@ section#section-qa {
     }
   }
   @media (min-width: 1240px) {
-    .section-slider .form-ila {
+    .section-slider .form-ila ,div#box-slider-content{
       margin-top: 160px;
     }
   }
@@ -584,7 +584,7 @@ section#section-qa {
     }
   }
 
-  h1.title {
+  h2.title,h1.title,p.title {
     font-size: 16px;
     line-height: 19px;
     color: #3A4F90;
@@ -594,20 +594,20 @@ section#section-qa {
     padding-top: 15px;
   }
   @media (min-width: 375px) {
-    h1.title {
+    h2.title,h1.title,p.title {
       font-size: 20px;
       line-height: 23px;
     }
   }
   @media (min-width: 1500px) {
-    h1.title {
+    h2.title,h1.title,p.title {
       font-size: 40px !important;
       line-height: 49px !important;
       padding-top: 75px !important;
     }
   }
   @media (min-width: 1024px) {
-    h1.title {
+    h2.title,h1.title,p.title {
       font-size: 30px;
       line-height: 34px;
       padding-top: 40px;

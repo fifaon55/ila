@@ -26,18 +26,6 @@ jQuery(document).ready(function($){
 		question: "Đăng ký cho trẻ học tại ILA như thế nào?",
 		answer: " Với hệ thống tư vấn viên chuyên nghiệp, phụ huynh không phải lo lắng khi muốn đăng ký cho con học tại ILA. Khi để lại thông tin liên hệ, các tư vấn viên giáo dục sẽ liên hệ  và tư vấn chi tiết về học phí, lộ trình học tương ứng với năng lực của trẻ.<br>Trẻ sẽ được kiểm tra trình độ tiếng Anh hoàn toàn miễn phí. Đặc biệt, các bài kiểm tra trình độ tiếng Anh được thực hiện bởi giáo viên bản ngữ, nhờ đó, phụ huynh biết được thực lực của con một cách đúng nhất để đưa ra quyết định phù hợp. Bài kiểm tra đầu vào tiếng Anh này còn giúp xác định cấp độ lớp học phù hợp để trẻ cải thiện khả năng tiếng Anh nhanh nhất. <br>Ngoài ra, ILA hiện đang có chương trình học thử MIỄN PHí và học bổng đến 25% cho học viên mới."
 	},
-	{
-		question: "Đăng ký cho trẻ học tại ILA như thế nào?",
-		answer: " Với hệ thống tư vấn viên chuyên nghiệp, phụ huynh không phải lo lắng khi muốn đăng ký cho con học tại ILA. Khi để lại thông tin liên hệ, các tư vấn viên giáo dục sẽ liên hệ  và tư vấn chi tiết về học phí, lộ trình học tương ứng với năng lực của trẻ.<br>Trẻ sẽ được kiểm tra trình độ tiếng Anh hoàn toàn miễn phí. Đặc biệt, các bài kiểm tra trình độ tiếng Anh được thực hiện bởi giáo viên bản ngữ, nhờ đó, phụ huynh biết được thực lực của con một cách đúng nhất để đưa ra quyết định phù hợp. Bài kiểm tra đầu vào tiếng Anh này còn giúp xác định cấp độ lớp học phù hợp để trẻ cải thiện khả năng tiếng Anh nhanh nhất. <br>Ngoài ra, ILA hiện đang có chương trình học thử MIỄN PHí và học bổng đến 25% cho học viên mới."
-	},
-	{
-		question: "Đăng ký cho trẻ học tại ILA như thế nào?",
-		answer: " Với hệ thống tư vấn viên chuyên nghiệp, phụ huynh không phải lo lắng khi muốn đăng ký cho con học tại ILA. Khi để lại thông tin liên hệ, các tư vấn viên giáo dục sẽ liên hệ  và tư vấn chi tiết về học phí, lộ trình học tương ứng với năng lực của trẻ.<br>Trẻ sẽ được kiểm tra trình độ tiếng Anh hoàn toàn miễn phí. Đặc biệt, các bài kiểm tra trình độ tiếng Anh được thực hiện bởi giáo viên bản ngữ, nhờ đó, phụ huynh biết được thực lực của con một cách đúng nhất để đưa ra quyết định phù hợp. Bài kiểm tra đầu vào tiếng Anh này còn giúp xác định cấp độ lớp học phù hợp để trẻ cải thiện khả năng tiếng Anh nhanh nhất. <br>Ngoài ra, ILA hiện đang có chương trình học thử MIỄN PHí và học bổng đến 25% cho học viên mới."
-	},
-	{
-		question: "Đăng ký cho trẻ học tại ILA như thế nào?",
-		answer: " Với hệ thống tư vấn viên chuyên nghiệp, phụ huynh không phải lo lắng khi muốn đăng ký cho con học tại ILA. Khi để lại thông tin liên hệ, các tư vấn viên giáo dục sẽ liên hệ  và tư vấn chi tiết về học phí, lộ trình học tương ứng với năng lực của trẻ.<br>Trẻ sẽ được kiểm tra trình độ tiếng Anh hoàn toàn miễn phí. Đặc biệt, các bài kiểm tra trình độ tiếng Anh được thực hiện bởi giáo viên bản ngữ, nhờ đó, phụ huynh biết được thực lực của con một cách đúng nhất để đưa ra quyết định phù hợp. Bài kiểm tra đầu vào tiếng Anh này còn giúp xác định cấp độ lớp học phù hợp để trẻ cải thiện khả năng tiếng Anh nhanh nhất. <br>Ngoài ra, ILA hiện đang có chương trình học thử MIỄN PHí và học bổng đến 25% cho học viên mới."
-	},
 
 
 	];
@@ -46,13 +34,13 @@ jQuery(document).ready(function($){
 	for (var i = 0; i < list_qa.length; i++) {
 		let html = '<div class="card">';
 		html += '<div class="card-header" id="heading-'+i+'">';
-		html += '<h5 class="mb-0">';
+		html += '<h2 class="mb-0 h5">';
 		html += '<button class="btn btn-link" data-toggle="collapse" data-target="#collapse-'+i+'" aria-expanded="true" aria-controls="collapse-'+i+'">';
 		html += '<img src="./uploads/down.png">';
 
 		html +=  list_qa[i].question;
 		html += '</button>';
-		html += '</h5>';
+		html += '</h2>';
 		html += '</div>';
 
 		html += '<div id="collapse-'+i+'" class="collapse" aria-labelledby="heading-'+i+'" data-parent="#accordion">';

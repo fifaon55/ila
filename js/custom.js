@@ -155,7 +155,7 @@ jQuery('.section-parents').ready(function($){
 jQuery(document).ready(function($){
     if($(window).width() < 450)
     {
-        $(".slider-1 .item").find("img").attr("src","uploads/tiếng anh trẻ em tại ILA.jpg");
+        $(".slider-1 .item").find("img").attr("src","uploads-v2/khóa học tiếng anh online cho bé (mobile).jpg");
         $(".alo").on("click","#employee",function(){
             $(".alo .form-ila").toggle();
             $(".alo").addClass("bg-mob");
