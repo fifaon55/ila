@@ -1,0 +1,96 @@
+.form__control {
+  position: relative;
+}
+.short-label {
+  display: none;
+  pointer-events: none;  
+}
+::placeholder {
+  color: transparent;
+}
+.red {
+  color: red;
+}
+.short-label {
+  position: absolute;
+  left: 15px;
+  top: calc(50% + 1px);
+  transform: translateY(-50%);
+  color: #3A4F90;
+  font-weight: 500;
+  display: block;
+}
+input:not(:placeholder-shown)+.short-label {
+  display: none;
+}
+
+
+button.reg {
+  border-radius: 10px!important;
+  border: unset;
+}
+
+.form-ila {
+  min-width: 350px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.short-label {
+  font-size: 14px;
+}
+
+@media (min-width: 1500px) {
+  .short-label {
+    font-size: 16px;
+  }
+  .form-ila .form-group input {
+    height: 45px !important;
+  }
+}
+
+.alo .form-ila {
+  max-width: 354px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h4.title {
+  font-size: 15px!important;
+}
+h4.otp-title {
+  margin-top: 20px;
+}
+.form-ila span#close-form img {
+  height: auto;
+}
+.form-ila img {
+  height: 100px;
+}
+h4.title {
+  font-size: 16px;
+}
+.form-ila .text {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.button-submit .otp-btn {
+  padding: 10px 50px 10px;
+}
+form#otp {
+  margin-top: 20px;
+}
+@media (min-width: 1350px){
+  .form-ila img {
+    height: auto;
+  }
+}
