@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
 		answer: "Hiểu rõ tâm lý năng động, dễ phân tâm của trẻ nhỏ, chương trình học tiếng Anh cho trẻ mới bắt đầu của ILA được thiết kế với những kiến thức và hoạt động trên lớp phù hợp với tính cách của trẻ, từ đó trẻ có hứng thú và yêu thích việc học hơn.<br><br>Thông qua việc học tiếng Anh tại ILA, trẻ sẽ học giỏi tiếng Anh mà không bị áp lực thành tích. Trẻ học từ vựng tiếng Anh hiệu quả thông qua các hoạt động phù hợp với lứa tuổi như học tiếng Anh qua hình ảnh, qua truyện kể. Những chủ đề học tiếng Anh cho bé cũng được chọn lọc để giúp bé khám phá thế giới bằng chính ngôn ngữ tiếng Anh mà bé đang học."
 	},
 	{
-		question: "Tại sao ILA cho trẻ lợi thế khi tham gia thi các kỳ thi lấy chứng chỉ tiếng Anh cho trẻ em Cambridge?",
+		question: "Tại sao ILA cho trẻ lợi thế khi tham gia thi các kỳ thi lấy chứng chỉ tiếng Anh Cambridge cho trẻ em?",
 		answer: "Là một trong số ít trung tâm tiếng Anh được ủy quyền tổ chức các kỳ thi chứng chỉ tiếng Anh Cambridge tại Việt Nam, ILA mang đến chất lượng giảng dạy và đào tạo Anh ngữ chuẩn quốc tế. Chương trình học giúp trẻ trang bị những kiến thức và kỹ năng cần thiết để sẵn sàng tham gia những kỳ thi Cambridge thực tế. Trẻ có thể đăng ký tham gia những kỳ thi lấy chứng chỉ tiếng Anh cho trẻ em phù hợp với độ tuổi của mình, cụ thể:<br><br>- Chứng chỉ STARTERS<br><br>- Chứng chỉ MOVERS<br><br>- Chứng chỉ FLYERS<br><br>- Chứng chỉ KET<br><br>- Chứng chỉ PET<br><br>- Chứng chỉ FCE<br><br>- Chứng chỉ CAE<br><br>- Chứng chỉ IELTS"
 	},
 	{
