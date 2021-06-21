@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
 	},
 	{
 		question: "Đăng ký cho trẻ học tại ILA như thế nào?",
-		answer: " Với hệ thống tư vấn viên chuyên nghiệp, phụ huynh không phải lo lắng khi muốn đăng ký cho con học tại ILA. Khi để lại thông tin liên hệ, các tư vấn viên giáo dục sẽ liên hệ  và tư vấn chi tiết về học phí, lộ trình học tương ứng với năng lực của trẻ.<br><br>Trẻ sẽ được kiểm tra trình độ tiếng Anh hoàn toàn miễn phí. Đặc biệt, các bài kiểm tra trình độ tiếng Anh được thực hiện bởi giáo viên bản ngữ, nhờ đó, phụ huynh biết được thực lực của con một cách đúng nhất để đưa ra quyết định phù hợp. Bài kiểm tra đầu vào tiếng Anh này còn giúp xác định cấp độ lớp học phù hợp để trẻ cải thiện khả năng tiếng Anh nhanh nhất. <br><br>Ngoài ra, ILA hiện đang có chương trình học thử MIỄN PHí và học bổng đến 25% cho học viên mới."
+		answer: " Với hệ thống tư vấn viên chuyên nghiệp, phụ huynh không phải lo lắng khi muốn đăng ký cho con học tại ILA. Khi để lại thông tin liên hệ, các tư vấn viên giáo dục sẽ liên hệ  và tư vấn chi tiết về học phí, lộ trình học tương ứng với năng lực của trẻ.<br><br>Trẻ sẽ được kiểm tra trình độ tiếng Anh hoàn toàn miễn phí. Đặc biệt, các bài kiểm tra trình độ tiếng Anh được thực hiện bởi giáo viên bản ngữ, nhờ đó, phụ huynh biết được thực lực của con một cách đúng nhất để đưa ra quyết định phù hợp. Bài kiểm tra đầu vào tiếng Anh này còn giúp xác định cấp độ lớp học phù hợp để trẻ cải thiện khả năng tiếng Anh nhanh nhất. <br><br>Ngoài ra, ILA hiện đang có chương trình học thử MIỄN PHÍ và học bổng đến 25% cho học viên mới."
 	},
 
 
