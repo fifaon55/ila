@@ -201,7 +201,6 @@ jQuery(document).ready(function($){
 
     $(".read-more").on("click",function(e){
         e.preventDefault();
-        console.log($(this).text())
         $(this).closest(".box").find(".replace-content").toggle();
     });
 

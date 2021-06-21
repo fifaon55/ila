@@ -1,6 +1,8 @@
 @import "../css/font-face.css";
 
-
+a.read-more {
+  cursor: pointer;
+}
 @media (max-width: 768px){
   .hr1-form {
     margin-top: 15px;
@@ -765,7 +767,7 @@ section#section-qa {
   }
   .section-study-program .object-start:after {
     content: "";
-    background: url("../uploads/element 3 1.png") no-repeat;
+    background: url("../uploads-v2/element 3 1 (1).png") no-repeat;
     position: absolute;
     background-size: contain;
     width: 100px;
@@ -814,7 +816,7 @@ section#section-qa {
   }
   .section-study-program .object-end:after {
     content: "";
-    background: url("../uploads/element 4 1.png") no-repeat;
+    background: url("../uploads-v2/element 4 1 (1).png") no-repeat;
     position: absolute;
     background-size: contain;
     width: 162px;
@@ -1728,7 +1730,7 @@ section#section-qa {
     }
 
     .section-wrapper {
-      background: url("../uploads/TABA_(4) 1.png");
+      background: url("../uploads-v2/TABA_(4) 1 (1).png");
       background-position: bottom;
     }
     @media (max-width: 768px) {
